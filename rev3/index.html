@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lista dos Cadastros</h1>
+    <div>
+        <input type="text" placeholder="digite um nome de usuario" id="username">
+        <button onclick="createUser()"> cadastrar </button>
+        <button onclick="getAllUsers()"> buscar </button>
+    </div>
+    <table id="registerTable">
+        <thead>
+            <tr>
+                <th>username</th>
+                <th>id</th>
+                <th>status</th>
+                <th>created</th>
+            </tr>
+        </thead>
+        <tbody id="list">
+          
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
